@@ -3,10 +3,6 @@ import requests
 import datetime
 import time
 
-
-
-
-
 def get(lower, upper, length):
     return (upper - lower)/length
 
@@ -51,9 +47,4 @@ for lat in range(y['grid']):
 
         search_count += 1
 
-        
-        if search_count % 5000 == 0:
-            time.sleep(60*60)
-
-        time.sleep(0.1)
 
