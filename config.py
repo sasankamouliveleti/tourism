@@ -4,5 +4,5 @@ left: 144.40882
 bottom: -38.222732
 right: 145.578864
 top: -37.461429
-# Number of API calls to /venue endpoint will be grid_size^2
+
 grid: 100
